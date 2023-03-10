@@ -1,0 +1,21 @@
+.subfloder {
+  cursor: pointer;
+  background: none;
+  border: none;
+
+  color: #424242;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  height: 55px;
+  border-bottom: solid 1px #e4e4e4;
+
+  text-align: left;
+
+  padding-left: 30px;
+}
+
+.subfloder:hover {
+  color: #ff6969;
+}

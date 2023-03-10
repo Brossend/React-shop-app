@@ -1,0 +1,39 @@
+.popap {
+  width: 200vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scale(0);
+}
+
+.popap__active {
+  transform: scale(1);
+}
+
+.popap__content {
+  background-color: #ffffff;
+  width: 633px;
+  margin-left: auto;
+}
+
+.popap__exitButton {
+  display: flex;
+  flex-direction: row;
+}
+
+.popap__description {
+  padding-left: 30px;
+  margin-top: 30px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #424242;
+}
+
+.popap__exit {
+  margin-left: auto;
+  margin-top: 6px;
+}

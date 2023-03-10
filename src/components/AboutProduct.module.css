@@ -1,0 +1,196 @@
+.product__img {
+  margin-top: 40px;
+  margin-left: 30px;
+
+  width: 565px;
+  height: 341px;
+
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+}
+
+.product__textTitle {
+  margin: 0px;
+  margin-top: 20px;
+  margin-left: 30px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.product__textPrice {
+  color: #424242;
+
+  margin: 0px;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-bottom: 34px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.product__tabs {
+  margin-left: 30px;
+}
+
+.product__tabsText {
+  width: 562px;
+}
+
+.product__tabsDescription {
+  display: flex;
+  flex-direction: row;
+  margin-right: 40px;
+
+  height: 36px;
+}
+
+.product__tabsDescription:nth-child(odd) {
+  background-color: #f3f3f3;
+}
+
+.product__tabsDescriptionText {
+  margin-top: 9px;
+}
+
+.product__tabsDescriptionText:nth-child(1) {
+  margin-left: 7px;
+}
+
+.product__tabsDescriptionText:nth-child(2) {
+  margin-left: auto;
+  margin-right: 5px;
+}
+
+.product__tabsDescriptionText:nth-child(3) {
+  margin-right: 7px;
+}
+
+.product__reviews {
+  display: flex;
+  flex-direction: row;
+
+  margin-bottom: 30px;
+}
+
+.product__userAvatar {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.product__userReview {
+  margin-left: 13px;
+}
+
+.product__rate {
+  display: flex;
+  flex-direction: row;
+
+  margin-bottom: 7px;
+}
+
+.product__userText {
+  width: 502px;
+
+  padding: 13px 19px 5px 15px;
+
+  background-color: #f3f3f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 7px;
+
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.product__userName {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  margin-right: auto;
+
+  color: #000000;
+}
+
+.product__rating {
+  margin-top: 20px;
+  width: 200px;
+  height: 18px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.product__rating:not(:checked) > input {
+  display: none;
+}
+
+.product__rating:not(:checked) > label {
+  width: 35px;
+  cursor: pointer;
+  font-size: 40px;
+  color: lightgrey;
+  text-align: center;
+  line-height: 1;
+}
+
+.product__rating:not(:checked) > label:before {
+  content: '☆';
+}
+
+.product__rating > input:checked ~ label {
+  color: gold;
+}
+
+.product__rating:not(:checked) > label:hover,
+.product__rating:not(:checked) > label:hover ~ label {
+  color: gold;
+}
+
+.product__rating > input:checked + label:hover,
+.product__rating > input:checked + label:hover ~ label,
+.product__rating > input:checked ~ label:hover,
+.product__rating > input:checked ~ label:hover ~ label,
+.product__rating > label:hover ~ input:checked ~ label {
+  color: gold;
+}
+
+.product__nameBlock {
+  display: flex;
+  flex-direction: column;
+}
+
+.product__name {
+  margin-top: 32px;
+  margin-bottom: 9px;
+  color: #000000;
+}
+
+.product__nameRaiting {
+  color: #000000;
+}
+
+.product__nameInput {
+  width: 565px;
+  height: 41px;
+
+  background: #ffffff;
+  border: 1px solid #898989;
+  border-radius: 5px;
+
+  padding-left: 16px;
+}
+
+.product__feedback {
+  width: 565px;
+  height: 174px;
+
+  background: #ffffff;
+  border: 1px solid #898989;
+  border-radius: 5px;
+
+  margin-bottom: 26px;
+}

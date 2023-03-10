@@ -1,0 +1,12 @@
+.output {
+  display: flex;
+  flex-direction: row;
+}
+
+.output__menu {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #ffffff;
+  width: 325px;
+}
