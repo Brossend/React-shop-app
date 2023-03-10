@@ -1,2 +1,2 @@
 # React-shop-app
-React-shop-app
+Не доделал корзину
